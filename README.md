@@ -35,7 +35,7 @@ WinEventDump is a powerful, user-friendly forensic tool designed for analyzing a
 - **Severity Classification** - Automatic classification of events (Critical/Medium/Low)
 - **Multi-format Support** - Parse EVTX, CSV, JSON, TXT, and LOG files
 - **Export Options** - Export to CSV or JSON formats
-- **Modern Dark Theme** - Eye-friendly purple/indigo interface
+
 
 ### Forensic Features
 - **Artifact Detection** - Identify suspicious Windows artifacts
