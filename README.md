@@ -4,6 +4,8 @@
 
 WinEventDump is a powerful, user-friendly forensic tool designed for analyzing and dumping Windows Event Logs (.evtx files) and other forensic artifacts. Built with a modern dark theme interface, it provides security professionals and forensic investigators with the tools they need to quickly triage, analyze, and export critical security events.
 
+![WinEventDump Screenshot](1.png)
+
 ![Version](https://img.shields.io/badge/version-1.0-purple)
 ![Python](https://img.shields.io/badge/python-3.6+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -12,7 +14,7 @@ WinEventDump is a powerful, user-friendly forensic tool designed for analyzing a
 ## 📑 Table of Contents
 
 - [Features](#-features)
-- [Screenshots](#-screenshots)
+- [Screenshot](#-screenshot)
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
 - [Usage Guide](#-usage-guide)
@@ -50,6 +52,23 @@ WinEventDump is a powerful, user-friendly forensic tool designed for analyzing a
 - 🚨 **Threat Hunting** - Find PowerShell abuse, suspicious processes
 - 📈 **Trend Analysis** - Visual metrics for quick assessment
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-### Main Interface
+![WinEventDump Main Interface](1.png)
+
+*Main interface showing event analysis with severity metrics, search functionality, and detailed event view*
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.6 or higher
+- pip package manager
+- Git (optional, for cloning)
+
+### Required Dependencies
+```bash
+# Install PyQt6 (GUI framework)
+pip install PyQt6
+
+# Install python-evtx (Windows Event Log parser)
+pip install python-evtx
